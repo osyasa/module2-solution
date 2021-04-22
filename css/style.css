@@ -1,0 +1,64 @@
+div {
+    font-family: 'Architects Daughter', 'cursive';
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10%;
+}
+
+.h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.content {
+    float: left;
+    margin: 1%;
+    background-color: #F7D194;
+    border: 1px solid black;
+}
+
+.head {
+    float: right;
+    padding: 1% 4% 1% 4%;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#html {
+    background-color: #BBB2EB;
+}
+
+#css {
+    background-color: #96D4CE;
+}
+
+#js {
+    background-color: #D48395;
+}
+
+@media (min-width: 992px) {
+    .content {
+        width: 31.1%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content {
+        width: 47.5%;
+        height: auto;
+    }
+
+    #c3 {
+        width: 97.3%;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        width: 97.3%;
+    }
+}
